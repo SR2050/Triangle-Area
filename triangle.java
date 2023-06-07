@@ -7,9 +7,9 @@ class triangle{
         double area,s;
         System.out.println("Enter the value of a :");
         a = input.nextInt();
-        System.out.println("Enter the value of a :");
+        System.out.println("Enter the value of b :");
         b = input.nextInt();
-        System.out.println("Enter the value of a :");
+        System.out.println("Enter the value of c :");
         c = input.nextInt();
         input.close();
         if(a+b>c && b+c>a && c+a>b){
